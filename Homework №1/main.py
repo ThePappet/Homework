@@ -1,17 +1,13 @@
 def decision(a, b, c, d):
   answer = ((-3 + a * a) * b - 16) / (c - 2 * d)
-  print('Ответ', str(answer))
+  return answer
 
-print('Введите число A:')
-A = int(input())
+A = int(input'Введите число A:'())
 
-print('Введите число B:')
-B = int(input())
+B = int(input('Введите число B:'))
 
-print('Введите число C:')
-C = int(input())
+C = int(input('Введите число C:'))
 
-print('Введите число D:')
-D = int(input())
+D = int(input('Введите число D:'))
 
-decision(A, B, C, D)
+print('Ответ', str(decision(A, B, C, D)))
